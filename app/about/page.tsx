@@ -7,17 +7,18 @@ const AboutPage = () => {
   return (
     <Container className="py-12">
       <TypographyH1 className="text-center mb-8">About Us</TypographyH1>
-      <div className="max-w-3xl mx-auto text-center">
-        <TypographyP className="mb-4">
-          Welcome to our website! We are dedicated to providing the best possible experience for our users.
-          Our mission is to create innovative solutions that make a difference.
-        </TypographyP>
-        <TypographyP className="mb-4">
-          Founded in [Year], we have grown from a small team to a passionate group of individuals
-          committed to excellence. We believe in quality, integrity, and customer satisfaction.
+      <div className="space-y-6 text-lg leading-relaxed">
+        <TypographyP>
+          Welcome to our company! We are dedicated to providing the best service and products to our customers. Our journey began with a simple idea: to create something truly valuable and impactful.
         </TypographyP>
         <TypographyP>
-          Thank you for visiting our About Us page. We hope you enjoy our services!
+          Over the years, we have grown and evolved, but our core mission remains the same: to innovate, to inspire, and to make a difference. We believe in the power of collaboration and the importance of our community.
+        </TypographyP>
+        <TypographyP>
+          Our team is composed of passionate and talented individuals who are committed to excellence. We work tirelessly to ensure that every product and service we offer meets the highest standards of quality and reliability.
+        </TypographyP>
+        <TypographyP>
+          Thank you for being a part of our story. We look forward to continuing to serve you and to achieving new milestones together.
         </TypographyP>
       </div>
     </Container>

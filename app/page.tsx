@@ -1,6 +1,7 @@
 import { ProductCard } from "@/components/ProductCard";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { Container } from "@/components/ui/container";
 
 export default function Home() {
   const products = [
@@ -58,7 +59,7 @@ export default function Home() {
       </section>
 
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-        <div className="container px-4 md:px-6 mx-auto">
+        <Container className="px-4 md:px-6 mx-auto">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-8 md:mb-12">
             Our Latest Collection
           </h2>
@@ -67,7 +68,7 @@ export default function Home() {
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
-        </div>
+        </Container>
       </section>
     </div>
   );
