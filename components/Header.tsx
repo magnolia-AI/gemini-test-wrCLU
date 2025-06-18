@@ -13,19 +13,19 @@ export function Header() {
       <nav className="flex gap-4 sm:gap-6">
         <Link
           className="text-sm font-medium hover:underline underline-offset-4 text-gray-700 dark:text-gray-300"
-          href="#"
+          href="/"
         >
           Hats
         </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4 text-gray-700 dark:text-gray-300"
-          href="#"
+          href="/about"
         >
           About
         </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4 text-gray-700 dark:text-gray-300"
-          href="#"
+          href="/contact"
         >
           Contact
         </Link>
