@@ -25,6 +25,12 @@ export function Header() {
         </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4 text-gray-700 dark:text-gray-300"
+          href="/about"
+        >
+          About
+        </Link>
+        <Link
+          className="text-sm font-medium hover:underline underline-offset-4 text-gray-700 dark:text-gray-300"
           href="/contact"
         >
           Contact
@@ -37,4 +43,5 @@ export function Header() {
     </header>
   );
 }
+
 
