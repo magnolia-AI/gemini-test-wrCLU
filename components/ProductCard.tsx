@@ -38,7 +38,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <p className="text-sm text-gray-600 mb-4">{product.description}</p>
       </CardContent>
       <CardFooter className="p-6 bg-gray-50">
-        <div className="flex items-center justify-between w-full">
+        <div className="flex items-center justify-between w-full gap-x-4">
           <p className="text-2xl font-bold text-purple-600">${product.price.toFixed(2)}</p>
           <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white transition-colors">
             Add to Cart
@@ -48,4 +48,5 @@ export default function ProductCard({ product }: ProductCardProps) {
     </Card>
   );
 }
+
 
