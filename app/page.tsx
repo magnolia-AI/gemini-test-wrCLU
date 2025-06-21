@@ -1,4 +1,3 @@
-\
 import ProductCard from "@/components/ProductCard";
 import { Badge } from "@/components/ui/badge";
 
